@@ -20,15 +20,13 @@ pattern = re.compile(r"""
                     """, re.IGNORECASE | re.VERBOSE)
 
 matches = pattern.finditer(inputContent)
-count = 0
+# count = 0
 for m in matches:
     outputFile.write(m.group(0)+"\n")
-    count += 1
+    # count += 1
     # print(m.group(0))
-print(count)
+# print(count)
 
 
 inputFile.close()
 outputFile.close()
-
-# \b\+?\d{1}?\(?\d{3}[-.)]?\d{3}[-.]?\d{4}\b
