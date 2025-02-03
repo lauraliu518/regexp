@@ -8,5 +8,6 @@ Final assessment was made with test_dollar_phone_corpus.txt (test corpus).
 Final test results are stored in dollar_output.txt and telephone_output.txt, with one match per line. 
 
 ## Run the program with:
-**dollar_program.py fileToBeProcessed** for monetary value extraction
+**dollar_program.py fileToBeProcessed** for monetary value extraction<br>  
+
 **phone_regexp.py fileToBeProcessed** for telephone number extraction
